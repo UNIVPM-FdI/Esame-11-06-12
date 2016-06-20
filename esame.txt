@@ -1,0 +1,170 @@
+Vai al contenuto principale
+Custom logo here
+Immagine GIANLUCA ALBANESE
+Sei collegato come GIANLUCA ALBANESE. (Esci)
+Università Politecnica delle MarcheFacoltà di IngegneriaFacoltà di Medicina e ChirurgiaFacoltà di EconomiaDISVAD3AI miei corsi
+ValutazioniLingua
+Fondamenti di Informatica
+
+Percorso della pagina
+Home / ? I miei corsi / ? Università Politecnica delle Marche / ? Facoltà di Ingegneria / ? Anno Accademico 2015-2016 / ? Fondamenti di Informatica 2015/2016 / ? Benvenuti / ? Test di autovalutazione per la Prova Teorica
+Iniziato	Tuesday, 17 May 2016, 19:50
+Stato	Completato
+Terminato	Tuesday, 17 May 2016, 20:05
+Tempo impiegato	15 min. 13 secondi
+Punteggio	1,70/4,00
+Valutazione	4,25 su un massimo di 10,00 (43%)
+Domanda 1
+Risposta errata
+Punteggio ottenuto 0,00 su 1,00
+ Non contrassegnataContrassegna domanda
+Testo domanda
+Se compila, dire cosa stampa il programma seguente:
+
+#include <iostream> 
+using namespace std; 
+int main() { 
+    int x=3, y=5, k=-6, *p; 
+    p = &x; 
+    y = *p; 
+    *p = 7; 
+    k += 3*x + 6*y; 
+    cout << "k = " << k << endl; 
+    return 0; 
+}
+
+Scegli un'alternativa:
+k = 39 Risposta errata
+k = 33
+non compila
+k = 17
+Feedback
+Risposta errata.
+
+La risposta corretta è: k = 33
+Domanda 2
+Risposta corretta
+Punteggio ottenuto 1,00 su 1,00
+ Non contrassegnataContrassegna domanda
+Testo domanda
+Se compila, dire cosa scrive a schermo il programma seguente:
+
+#include <iostream> 
+using namespace std; 
+ 
+struct x { 
+    int n; 
+    x* s; 
+}; 
+ 
+typedef x* z; 
+ 
+int main() { 
+    z a, b = 0; 
+    for(int i=1; i<=4; i++) { 
+        a = new x; 
+        a->n = i*5; 
+        a->s = b; 
+        b = a; 
+    } 
+    while(b) { 
+        cout << b->n << endl; 
+        b=b->s; 
+    } 
+    return 0; 
+}
+
+Scegli un'alternativa:
+20
+15
+10
+5 Risposta corretta
+altro comportamento
+5
+10
+15
+20
+non compila
+5
+15
+10
+20
+Feedback
+Risposta corretta.
+
+La risposta corretta è: 20
+15
+10
+5
+Domanda 3
+Risposta errata
+Punteggio ottenuto 0,00 su 1,00
+ Non contrassegnataContrassegna domanda
+Testo domanda
+Se compila, dire cosa stampa il programma seguente:
+
+#include <iostream> 
+using namespace std; 
+int main() { 
+    int x[6]={5,3,1,0,6,2}, y=1, z=1; 
+    int i=4; 
+    while (x[--i]) 
+    z += x[i] + 1; 
+    y = i + 2*z + 3*y; 
+    cout << "y = " << y << endl; 
+    return 0; 
+}
+
+Scegli un'alternativa:
+y  = 17
+non compila Risposta errata
+y  =  19
+y = 8
+Feedback
+Risposta errata.
+
+La risposta corretta è: y = 8
+Domanda 4
+Parzialmente corretta
+Punteggio ottenuto 0,70 su 1,00
+ Non contrassegnataContrassegna domanda
+Testo domanda
+Se compila, dire cosa scrive a schermo il programma seguente:
+
+#include <iostream> 
+using namespace std; 
+ 
+int main() { 
+    int a=5, b=7; 
+    { 
+        int a; 
+        a += b; 
+        cout << a << endl; 
+    } 
+    cout << a << endl; 
+    return 0; 
+}
+
+Scegli una o più alternative:
+5
+7
+5
+5
+non compila
+altro comportamento
+7
+5 Risposta corretta
+Feedback
+Risposta parzialmente corretta.
+
+Hai selezionato correttamente 1.
+La risposta corretta è: 7
+5, altro comportamento
+Fine revisione
+Navigazione quiz
+Salta Navigazione quiz
+Domanda 1 Questa pagina Domanda 2 Questa pagina Domanda 3 Questa pagina Domanda 4 Questa pagina
+Visualizza una pagina alla volta
+Fine revisione
+Sei collegato come GIANLUCA ALBANESE. (Esci)
+ Moodle logo
